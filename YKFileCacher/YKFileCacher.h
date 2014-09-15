@@ -81,5 +81,5 @@ extern NSString *const yk_fileCacheDownloadFinishedNotification;
  */
 - (BOOL)addFileCacheTask:(NSString *)fileUrlStr;
 
-
+- (BOOL)addImageCacheTask:(NSString *)imageUrlStr forView:(UIView *)view;
 @end
